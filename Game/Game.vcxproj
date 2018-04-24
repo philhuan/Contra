@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{567991F9-A6C8-4E04-8A4A-D28EC8FAE627}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Game</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Activity.cpp" />
+    <ClCompile Include="AddTree.cpp" />
+    <ClCompile Include="AddWave.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="BigTree1.cpp" />
+    <ClCompile Include="Bill.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="Bullets.cpp" />
+    <ClCompile Include="CannonFodders.cpp" />
+    <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="GameActivity.cpp" />
+    <ClCompile Include="Grass.cpp" />
+    <ClCompile Include="GrassOfTree.cpp" />
+    <ClCompile Include="KeyListenner.cpp" />
+    <ClCompile Include="LivingThings.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mountain1.cpp" />
+    <ClCompile Include="Mountain2.cpp" />
+    <ClCompile Include="PartView.cpp" />
+    <ClCompile Include="Peple.cpp" />
+    <ClCompile Include="Physical.cpp" />
+    <ClCompile Include="HJW.cpp" />
+    <ClCompile Include="QuickAddPartViews.cpp" />
+    <ClCompile Include="RePlayView.cpp" />
+    <ClCompile Include="Mci.cpp" />
+    <ClCompile Include="SimpleImageView.cpp" />
+    <ClCompile Include="Stars.cpp" />
+    <ClCompile Include="StartActivity.cpp" />
+    <ClCompile Include="StartTitle.cpp" />
+    <ClCompile Include="Stone.cpp" />
+    <ClCompile Include="RunTitle.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TheCannonFodder.cpp" />
+    <ClCompile Include="Title.cpp" />
+    <ClCompile Include="Trunk.cpp" />
+    <ClCompile Include="VecPosition.cpp" />
+    <ClCompile Include="View.cpp" />
+    <ClCompile Include="Water.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Activity.h" />
+    <ClInclude Include="AddTree.h" />
+    <ClInclude Include="AddWave.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="BigTree1.h" />
+    <ClInclude Include="Bill.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="Bullets.h" />
+    <ClInclude Include="CannonFodders.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="GameActivity.h" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="GrassOfTree.h" />
+    <ClInclude Include="KeyListenner.h" />
+    <ClInclude Include="LivingThings.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Mountain1.h" />
+    <ClInclude Include="Mountain2.h" />
+    <ClInclude Include="PartView.h" />
+    <ClInclude Include="Nfc.h" />
+    <ClInclude Include="Physical.h" />
+    <ClInclude Include="HJW.h" />
+    <ClInclude Include="QuickAddPartViews.h" />
+    <ClInclude Include="RePlayView.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="Mci.h" />
+    <ClInclude Include="SimpleImageView.h" />
+    <ClInclude Include="Stars.h" />
+    <ClInclude Include="StartActivity.h" />
+    <ClInclude Include="StartTitle.h" />
+    <ClInclude Include="Stone.h" />
+    <ClInclude Include="RunTitle.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TheCannonFodder.h" />
+    <ClInclude Include="Title.h" />
+    <ClInclude Include="Trunk.h" />
+    <ClInclude Include="VecPosition.h" />
+    <ClInclude Include="View.h" />
+    <ClInclude Include="Water.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc" />
+    <ResourceCompile Include="Title.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\WEI\Desktop\bigTree1.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\bigTree2.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\bigTree3.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\bigTree4.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\hhh.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\icon1.png" />
+    <Image Include="C:\Users\WEI\Desktop\wave1.bmp" />
+    <Image Include="C:\Users\WEI\Desktop\wave111.bmp" />
+    <Image Include="icon1.ico" />
+    <Image Include="icon2.ico" />
+    <Image Include="image\bill\bullet.bmp" />
+    <Image Include="image\bill\getDown.bmp" />
+    <Image Include="image\bill\inwater.bmp" />
+    <Image Include="image\bill\inWaterup.bmp" />
+    <Image Include="image\bill\jump.bmp" />
+    <Image Include="image\bill\runLeft.bmp" />
+    <Image Include="image\bill\runRight.bmp" />
+    <Image Include="image\bill\run_1.bmp" />
+    <Image Include="image\bill\run_2.bmp" />
+    <Image Include="image\bill\run_3.bmp" />
+    <Image Include="image\bill\run_4.bmp" />
+    <Image Include="image\bill\run_5.bmp" />
+    <Image Include="image\bill\ShootUp.bmp" />
+    <Image Include="image\bill\stand.bmp" />
+    <Image Include="image\bill\standLeft.bmp" />
+    <Image Include="image\bill\standRight.bmp" />
+    <Image Include="image\bill\standShootLeft.bmp" />
+    <Image Include="image\bill\standShootRight.bmp" />
+    <Image Include="image\bill\standUp.bmp" />
+    <Image Include="image\bill\walkShootDown.bmp" />
+    <Image Include="image\bill\walkShootLeft.bmp" />
+    <Image Include="image\bill\walkShootLeftUp.bmp" />
+    <Image Include="image\bill\walkShootRight.bmp" />
+    <Image Include="image\bill\walkShootRightUp.bmp" />
+    <Image Include="image\building\tank.bmp" />
+    <Image Include="image\npc\CannonFodder.bmp" />
+    <Image Include="image\stage\bigtree.bmp" />
+    <Image Include="image\stage\grass.gif" />
+    <Image Include="image\stage\grassOfTree.bmp" />
+    <Image Include="image\stage\mountain1.bmp" />
+    <Image Include="image\stage\mountain1.gif" />
+    <Image Include="image\stage\mountain2.bmp" />
+    <Image Include="image\stage\mountain2.gif" />
+    <Image Include="image\stage\simple_star.gif" />
+    <Image Include="image\stage\stone.gif" />
+    <Image Include="image\stage\tree1.gif" />
+    <Image Include="image\stage\tree2.gif" />
+    <Image Include="image\stage\tree3.gif" />
+    <Image Include="image\stage\trunk.bmp" />
+    <Image Include="image\stage\water.gif" />
+    <Image Include="image\stage\wave.bmp" />
+    <Image Include="image\stage\wave.gif" />
+    <Image Include="image\stage\waves.bmp" />
+    <Image Include="image\title\title10_2.bmp" />
+    <Image Include="image\title\title11_6.bmp" />
+    <Image Include="image\title\title12_2.bmp" />
+    <Image Include="image\title\title13_6.bmp" />
+    <Image Include="image\title\title14_8.bmp" />
+    <Image Include="image\title\title15_8.bmp" />
+    <Image Include="image\title\title16_8.bmp" />
+    <Image Include="image\title\title1_6.bmp" />
+    <Image Include="image\title\title2_2.bmp" />
+    <Image Include="image\title\title3_6.bmp" />
+    <Image Include="image\title\title4_2.bmp" />
+    <Image Include="image\title\title5_6.bmp" />
+    <Image Include="image\title\title6_2.bmp" />
+    <Image Include="image\title\title7_6.bmp" />
+    <Image Include="image\title\title8_2.bmp" />
+    <Image Include="image\title\title9_6.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image1.bin" />
+    <None Include="image\title\hjw1.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\backgroudMusic.wav" />
+    <Media Include="sound\gun.wav" />
+    <Media Include="sound\title.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

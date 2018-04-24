@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\StartActivity">
+      <UniqueIdentifier>{d434600d-2873-423a-9d7c-06ca121075e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameActivity">
+      <UniqueIdentifier>{49a2ffa8-8b1a-4566-bf06-30f1c6345267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\tool">
+      <UniqueIdentifier>{b44f0a00-49c6-4102-8d60-c83a274c0e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Frame">
+      <UniqueIdentifier>{ed3d1c3e-53a5-4b61-8ef5-7539739b1529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameActivity">
+      <UniqueIdentifier>{e9ddff05-97e4-4076-a91d-a529fff5fc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Frame">
+      <UniqueIdentifier>{29e15642-a91d-49db-9618-7e8324991e97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\tool">
+      <UniqueIdentifier>{e8e3b112-293f-41cc-b197-94a13ff968d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\StartActivity">
+      <UniqueIdentifier>{de62a5ee-46ba-4319-95fe-5284e4c372be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameActivity\Background">
+      <UniqueIdentifier>{9130c707-c46a-47be-afbd-2947a418cd8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameActivity\Background">
+      <UniqueIdentifier>{184f2575-dcac-485b-a67e-aa4351e5eff9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActivity.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Activity.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyListenner.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="RePlayView.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleImageView.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="Area.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Physical.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="VecPosition.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="StartActivity.cpp">
+      <Filter>源文件\StartActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="PartView.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="HJW.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="StartTitle.cpp">
+      <Filter>源文件\StartActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="RunTitle.cpp">
+      <Filter>源文件\StartActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>源文件\StartActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Bill.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Peple.cpp">
+      <Filter>源文件\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="AddTree.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="AddWave.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="BigTree1.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Grass.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Mountain1.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Mountain2.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassOfTree.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Stars.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickAddPartViews.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Water.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Trunk.cpp">
+      <Filter>源文件\GameActivity\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullets.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Mci.cpp">
+      <Filter>源文件\tool</Filter>
+    </ClCompile>
+    <ClCompile Include="CannonFodders.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="TheCannonFodder.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>源文件\GameActivity</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingThings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartActivity.h">
+      <Filter>头文件\StartActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="GameActivity.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Activity.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Area.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Physical.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleImageView.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyListenner.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="RePlayView.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="VecPosition.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="PartView.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="HJW.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StartTitle.h">
+      <Filter>头文件\StartActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="RunTitle.h">
+      <Filter>头文件\StartActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>头文件\StartActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Nfc.h">
+      <Filter>头文件\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="AddTree.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Mountain1.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="AddWave.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="BigTree1.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Grass.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Mountain2.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Stars.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Water.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Trunk.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassOfTree.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickAddPartViews.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullets.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="Mci.h">
+      <Filter>头文件\tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>头文件\GameActivity\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="CannonFodders.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="TheCannonFodder.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingThings.h">
+      <Filter>头文件\GameActivity</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Title.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image\title\title1_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title2_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title3_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title4_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title5_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title6_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title7_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title8_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title9_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title10_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title11_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title12_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title13_6.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title14_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title15_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\title\title16_8.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\water.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\stone.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\simple_star.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\tree1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\mountain1.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\mountain2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\tree2.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\tree3.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\grass.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\mountain1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\mountain2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\icon1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\wave.gif">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\wave.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\wave1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\hhh.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\wave111.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\waves.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\bigTree1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\bigTree2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\bigTree3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="C:\Users\WEI\Desktop\bigTree4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\bigtree.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\grassOfTree.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\stage\trunk.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\stand.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\run_1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\run_2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\run_3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\run_4.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\run_5.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\runRight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\runLeft.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\bullet.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\standLeft.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\standShootLeft.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\standShootRight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\standRight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\walkShootRightUp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\walkShootLeftUp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\walkShootDown.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\getDown.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\ShootUp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\standUp.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\walkShootLeft.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\walkShootRight.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\jump.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\inwater.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\bill\inWaterup.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\building\tank.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="image\npc\CannonFodder.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="image\title\hjw1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="image1.bin">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="sound\title.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="sound\backgroudMusic.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="sound\gun.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
