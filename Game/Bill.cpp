@@ -454,6 +454,10 @@ void Bill::physical()
 
 	if (position.getY() > 375&&position.getX()+gameActivity->backGround->curPosition->getX()<4500)
 		act = INWATER;
+	if (act == INWATER && directionY == DOWN)
+		isDive = true;
+	else
+		isDive = false;
 	if (isTouchLand())
 	{
 		act = STAND;
