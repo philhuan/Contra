@@ -454,7 +454,7 @@ void Bill::physical()
 
 	if (position.getY() > 375&&position.getX()+gameActivity->backGround->curPosition->getX()<4500)
 		act = INWATER;
-	//this will toggle the isDive property,test test test
+	//this will toggle the isDive property,test test test test
 	if (act == INWATER && directionY == DOWN)
 		isDive = true;
 	else
